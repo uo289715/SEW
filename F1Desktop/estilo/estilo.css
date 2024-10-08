@@ -1,0 +1,158 @@
+/* Datos Personales: Javier Gutierrez Esquinas UO289715 */
+
+/*
+Colores:
+Rojo FF6557
+Rojo Oscuro AD0E00
+Blanco FFFFFF
+Azul 000c66
+Gris ccc
+Gris claro f9f9f9
+*/
+
+/* Especificidad: 001*/
+body {
+    background-color: #FFFFFF; /* Color de fondo del body */
+    color: #000000; /* Color de texto del body */
+    font-family: Arial, sans-serif; 
+    font-size: 16px; /* Tamaño de fuente base */
+    line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
+}
+/* Especificidad: 011*/
+a[href^="http"] {
+    color: #AD0E00;  /* Color inicial para enlaces externos */
+}
+/* Especificidad: 001*/
+ol{
+    margin-left: 10px; /* Aumenta la sangría de la lista */
+    font-size: 1.1rem; /* Aumenta el tamaño de la fuente */
+    color: #000000; /* Cambia el color del texto */
+}
+/* Especificidad: 002*/
+ol li{
+    margin-bottom: 3px; /* Añade un espacio entre los elementos */
+    font-weight: normal; /* Texto normal por defecto */
+    padding: 5px; /* Añade un poco de relleno interno a cada elemento */
+    font-size: 1rem;
+
+}
+/* Especificidad: 001*/
+dl {
+    margin: 20px; /* Añade margen alrededor de la lista */
+    padding: 10px; /* Añade relleno interno */
+    border: 1px solid #ccc; /* Borde gris claro alrededor de la lista */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo claro */
+}
+/* Especificidad: 001*/
+dt {
+    font-weight: bold; /* Hace que el texto de términos esté en negrita */
+    font-size: 1.2rem; /* Aumenta el tamaño de la fuente para los términos */
+}
+/* Especificidad: 001*/
+dd {
+    margin-bottom: 10px; /* Espaciado inferior entre definiciones */
+    font-size: 1rem; /* Tamaño de fuente estándar para las definiciones */
+}
+/* Especificidad: 001*/
+ul {
+    margin-left: 10px; /* Aumenta la sangría de la lista */
+    font-size: 1.1rem; /* Aumenta el tamaño de la fuente */
+    color: #000000; /* Cambia el color del texto */
+}
+/* Especificidad: 002*/
+ul li{
+    list-style-type:square;/* Cambia las viñetas a cuadrados*/
+    font-size: 1rem;/* Cambia el tamaño de la fuente */
+}
+  
+/* Especificidad: 004*/
+ul li ul li{
+    list-style-type: circle; /* Cambia las viñetas a circulos */
+    margin-bottom: 10px; /* Añade un espacio entre los elementos */
+    font-size: 1rem; /* Cambia el tamaño de la fuente */
+}
+/* Especificidad: 001*/
+caption {
+    font-size: 1.5rem; /* Tamaño de fuente para el título de la tabla */
+    margin-bottom: 10px; /* Margen inferior para separación */
+    font-weight: bold; /* Negrita para el título */
+}
+/* Especificidad: 001*/
+table {
+    width: 50%; /* Ancho completo de la tabla */
+    border-collapse: collapse; /* Elimina el espacio entre bordes de celdas */
+    margin: 20px 0; /* Margen superior e inferior */
+    background-color: #f9f9f9; /* Color de fondo claro */
+}
+/* Especificidad: 001*/
+th {
+    border: 1px solid #ddd; /* Borde gris claro alrededor de las celdas */
+    padding: 12px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto a la izquierda */
+}
+/* Especificidad: 001*/
+td {
+    border: 1px solid #ddd; /* Borde gris claro alrededor de las celdas */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto a la izquierda */
+}
+/* Especificidad: 002*/
+picture source{
+    width:100%;
+    height: auto;
+}
+/* Especificidad: 001*/
+video {
+    width:100%;
+    height:auto;
+   }
+/* Especificidad: 001*/
+h1 {
+    
+    font-size: 2.5em; /* Tamaño de fuente */
+    font-weight: bold; /* Densidad */
+    color: #FFFFFF; /* Color de texto de los enlaces en el nav */
+
+}
+/* Especificidad: 002*/
+h1 a{
+    text-decoration: none;
+    color: #FFFFFF; /* Color de texto de los enlaces en el nav */
+}
+/* Especificidad: 001*/
+h2 {
+    font-size: 2em; 
+}
+/* Especificidad: 001*/
+h3 {
+    font-size: 1.5em;
+}
+/* Especificidad: 001*/
+header {
+    background-color: #0000ff; /* Color de fondo del header */
+    color: #000000; /* Color de texto del header */
+}
+/* Especificidad: 003*/
+header + p:has(a) {
+    font-size: 0.875em;
+  }
+/* Especificidad: 001*/
+nav {
+    background-color: #FFFFFF; /* Color de fondo del nav (rojo) */
+}
+/* Especificidad: 002*/
+nav a {
+    color: #FFFFFF; /* Color de texto de los enlaces en el nav */
+    text-decoration: none; /* Eliminamos el subrayado */
+    padding: 20px; /* Espaciado interno para los enlaces */
+    background-color: #0000ff; /* Color de fondo de los enlaces en el nav */
+}
+/* Especificidad: 012*/
+nav a.active {
+    color: #FFFF00; /* Color diferente para el enlace activo */
+    font-weight: bold; /* Negrita para destacar */
+    border-bottom: 2px solid #FFFF00; /* Subrayado o borde inferior */
+}
+
+
