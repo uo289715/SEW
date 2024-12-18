@@ -37,21 +37,21 @@
 
     <h2>Noticias</h2>
     <p>Seleccione un archivo de texto:</p>
-    <p><input type="file" id="archivoTexto" /></p>
+    <p><input type="file"/></p>
     
     <section>
         <h2>Añadir una nueva noticia</h2>
         <form>
-          <label>Título:</label>
-          <input type="text" placeholder="Título de la noticia" required><br>
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" placeholder="Título de la noticia" required>
     
-          <label>Entradilla:</label>
-          <input type="text" placeholder="Entradilla de la noticia" required><br>
+            <label for="entradilla">Entradilla:</label>
+            <input type="text" id="entradilla" placeholder="Entradilla de la noticia" required>
     
-          <label>Autor:</label>
-          <input type="text" placeholder="Autor de la noticia" required><br>
+            <label for="autor">Autor:</label>
+            <input type="text" id="autor" placeholder="Autor de la noticia" required>
     
-          <button type="submit">Añadir noticia</button>
+            <button type="submit">Añadir noticia</button>
         </form>
     </section>
     <script src="js/noticias.js"></script>
