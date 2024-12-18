@@ -1,0 +1,48 @@
+/* Datos Personales: Javier Gutierrez Esquinas UO289715 */
+/* Especificidad: 001 */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Especificidad: 002 */
+header h1 {
+    background-color: #0000ff; /* Color de fondo de los enlaces en el nav */
+    margin: 0; /* Elimina márgenes del título */
+    /*Color de primer plano hereda de body*/
+}
+@media (max-width: 768px) {
+    /* Seleccionar el párrafo que contiene las migas de navegación y ocultarlo */
+    /* Especificidad: 002 */
+    header + p {
+        display: none; /* Oculta el párrafo en pantallas pequeñas */
+    }
+
+    /* Ajustar el diseño del encabezado en dispositivos móviles */
+    /* Especificidad: 001 */
+    header {
+        flex-direction: column; /* Colocar h1 y nav en una columna */
+    }
+
+    /* Ajustar el menú de navegación */
+    /* Especificidad: 001 */
+    nav {
+        flex-direction: column; /* Colocar los enlaces uno debajo del otro */
+        width: 100%; /* Asegurar que el nav ocupe todo el ancho */
+    }
+
+    /* Ajustar los enlaces de navegación */
+    /* Especificidad: 002 */
+    nav a {
+        display: block; /* Cada enlace ocupa toda la línea */
+        padding: 0.625rem;  /* Padding convertido a rem */
+        text-align: left;   /* Sin cambio */
+        border-bottom: 0.0625rem; /* Border-bottom convertido a rem */        
+    }
+}
+/* Estilo para el menú de navegación */
+/* Especificidad: 001 */
+nav {
+    display: flex; /* Activa Flexbox en el menú */
+    justify-content: flex-end;
+}

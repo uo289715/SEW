@@ -1,0 +1,85 @@
+/* Datos Personales: Javier Gutierrez Esquinas UO289715 */
+/* Especificidad: 001 */
+article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas de igual tamaño */
+    
+}
+/* Especificidad: 001 */
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    /*Color de fondo: Hereda del body*/
+}
+/* Especificidad: 002 */
+article article{
+    gap: 2em; /* Espacio entre los artículos */
+    width: 90%;
+    margin-bottom: 2em;
+    background-color: white;
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0 0.2em 1em rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    transition: transform 0.3s ease-in-out;
+    /*Color de primer plano: Hereda del body*/
+}
+
+/* Efecto al pasar el ratón por encima de los artículos */
+/* Especificidad: 012 */
+article article:hover {
+    transform: scale(1.05);
+}
+
+/* Título de cada artículo (fecha) */
+/* Especificidad: 003 */
+article article h2 {
+    font-size: 1.6em;
+    color: #2c3e50;
+    margin-bottom: 1em;
+    /*Color de fondo: Hereda del body*/
+}
+
+/* Especificidad: 003 */
+article article header {
+    background-color: #fff;
+    padding: 0.625rem;            /* Padding convertido a rem */
+    border-radius: 0.3125rem 0.3125rem 0 0;  /* Border-radius convertido a rem */
+    /*Color de primer plano: Hereda del body*/
+}
+
+/* Especificidad: 003 */
+article article p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    color: #555;
+    /*Color de fondo: Hereda del body*/
+}
+
+/* Especificidad: 003 */
+article article img {
+    width: 5em;
+    height: 5em;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Especificidad: 012 */
+article article .rain {
+    font-weight: bold;
+    color: #3498db;
+    /*Color de fondo: Hereda del body*/
+}
+
+/* Especificidad: 012 */
+article article.rainy {
+    border-left: 0.5em solid #3498db;
+    padding-left: 1.5em;
+}

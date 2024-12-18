@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+<circuito>
+    <nombre>Silverstone</nombre>
+    <longitudCircuito>
+        <valor>5891</valor>
+        <unidad>m</unidad>
+    </longitudCircuito>
+    <anchura>
+        <valor>15</valor>
+        <unidad>m</unidad>
+    </anchura>
+    <fecha>2024-07-07</fecha>
+    <hora>16:00</hora>
+    <vueltas>52</vueltas>
+    <localidad>Northamptonshire</localidad>
+    <pais>Inglaterra</pais>
+    <referencias>
+        <referencia>"https://es.wikipedia.org/wiki/Anexo:Gran_Premio_de_Gran_Breta%C3%B1a_de_2024"</referencia>
+        <referencia>"https://formula1.lne.es/grandes-premios/gp-inglaterra.html#:~:text=La%20longitud%20del%20circuito%20es,distancia%20final%20de%20306%2C332%20kil%C3%B3metros."</referencia>
+        <referencia>"https://es.motorsport.com/f1/news/horarios-gran-bretana-silverstone-como-ver/10629785/#:~:text=El%20domingo%207%20de%20julio,las%2011%3A00h%20de%20Argentina."</referencia>
+    </referencias>
+    <fotografias>
+        <fotografia archivo="recorrido.jpg"/>
+        <fotografia archivo="meta.jpg"/>
+        <fotografia archivo="vistaAerea.jpg"/>
+    </fotografias>
+    <videos>
+        <video archivo="vuelta.mp4"/>
+    </videos>
+    <coordenadas>
+        <latitud>52.0750</latitud>
+        <longitud>-1.0167</longitud>
+        <altitud>155</altitud>
+    </coordenadas>
+    <tramos>
+        <!-- Recta de inicio -->
+        <tramo distancia="269" unidades="m" sector="1">
+            <latitud>52.0711</latitud>
+            <longitud>-1.0197</longitud>
+            <altitud>150</altitud>
+        </tramo>
+        <!-- Curva 1 -->
+        <tramo distancia="93" unidades="m" sector="1">
+            <latitud>52.0711</latitud>
+            <longitud>-1.0186</longitud>
+            <altitud>151</altitud>
+        </tramo>
+        <!-- Recta después de la curva 1 -->
+        <tramo distancia="112" unidades="m" sector="1">
+            <latitud>52.0711</latitud>
+            <longitud>-1.0169</longitud>
+            <altitud>152</altitud>
+        </tramo>
+        <!-- Curva 2 -->
+        <tramo distancia="97" unidades="m" sector="1">
+            <latitud>52.0714</latitud>
+            <longitud>-1.0156</longitud>
+            <altitud>153</altitud>
+        </tramo>
+        <!-- Recta de la curva 2 -->
+        <tramo distancia="177" unidades="m" sector="1">
+            <latitud>52.0722</latitud>
+            <longitud>-1.0136</longitud>
+            <altitud>154</altitud>
+        </tramo>
+        <!-- Curva 3 -->
+        <tramo distancia="64" unidades="m" sector="1">
+            <latitud>52.0722</latitud>
+            <longitud>-1.0128</longitud>
+            <altitud>154</altitud>
+        </tramo>
+        <!-- Recta después de la curva 3 -->
+        <tramo distancia="99" unidades="m" sector="1">
+            <latitud>52.0714</latitud>
+            <longitud>-1.0125</longitud>
+            <altitud>155</altitud>
+        </tramo>
+        <!-- Curva 4 -->
+        <tramo distancia="60" unidades="m" sector="1">
+            <latitud>52.0714</latitud>
+            <longitud>-1.0117</longitud>
+            <altitud>156</altitud>
+        </tramo>
+        <!-- Recta después de la curva 4 -->
+        <tramo distancia="143" unidades="m" sector="1">
+            <latitud>52.0728</latitud>
+            <longitud>-1.0114</longitud>
+            <altitud>155</altitud>
+        </tramo>
+        <!-- Curva 5 -->
+        <tramo distancia="63" unidades="m" sector="1">
+            <latitud>52.0731</latitud>
+            <longitud>-1.0117</longitud>
+            <altitud>154</altitud>
+        </tramo>
+        <!-- Recta después de la curva 5 -->
+        <tramo distancia="516" unidades="m" sector="1">
+            <latitud>52.0761</latitud>
+            <longitud>-1.0172</longitud>
+            <altitud>154</altitud>
+        </tramo>
+        <!-- Recta después de la curva 5 (cambio de sector) -->
+        <tramo distancia="177" unidades="m" sector="2">
+            <latitud>52.0769</latitud>
+            <longitud>-1.0183</longitud>
+            <altitud>153</altitud>
+        </tramo>
+        <!-- Curva 6 -->
+        <tramo distancia="118" unidades="m" sector="2">
+            <latitud>52.0767</latitud>
+            <longitud>-1.0197</longitud>
+            <altitud>151</altitud>
+        </tramo>
+        <!-- Recta después de la curva 6 -->
+        <tramo distancia="80" unidades="m" sector="2">
+            <latitud>52.0761</latitud>
+            <longitud>-1.0200</longitud>
+            <altitud>152</altitud>
+        </tramo>
+        <!-- Curva 7 -->
+        <tramo distancia="171" unidades="m" sector="2">
+            <latitud>52.0764</latitud>
+            <longitud>-1.0214</longitud>
+            <altitud>152</altitud>
+        </tramo>
+        <!-- Recta después de la curva 7 -->
+        <tramo distancia="131" unidades="m" sector="2">
+            <latitud>52.0775</latitud>
+            <longitud>-1.0206</longitud>
+            <altitud>150</altitud>
+        </tramo>
+        <!-- Curva 8 -->
+        <tramo distancia="202" unidades="m" sector="2">
+            <latitud>52.0783</latitud>
+            <longitud>-1.0175</longitud>
+            <altitud>151</altitud>
+        </tramo>
+        <!-- Recta después de la curva 8 -->
+        <tramo distancia="395" unidades="m" sector="2">
+            <latitud>52.0789</latitud>
+            <longitud>-1.0122</longitud>
+            <altitud>154</altitud>
+        </tramo>
+        <!-- Curva 9 -->
+        <tramo distancia="112" unidades="m" sector="2">
+            <latitud>52.0783</latitud>
+            <longitud>-1.0111</longitud>
+            <altitud>154</altitud>
+        </tramo>
+        <!-- Recta después de la curva 9 -->
+        <tramo distancia="414" unidades="m" sector="2">
+            <latitud>52.0747</latitud>
+            <longitud>-1.0100</longitud>
+            <altitud>155</altitud>
+        </tramo>
+        <!-- Curva 10 -->
+        <tramo distancia="117" unidades="m" sector="2">
+            <latitud>52.0739</latitud>
+            <longitud>-1.0094</longitud>
+            <altitud>154</altitud>
+        </tramo>
+        <!-- Curva 11 -->
+        <tramo distancia="87" unidades="m" sector="2">
+            <latitud>52.0728</latitud>
+            <longitud>-1.0094</longitud>
+            <altitud>154</altitud>
+        </tramo>
+        <!-- Recta después de la curva 11 -->
+        <tramo distancia="89" unidades="m" sector="2">
+            <latitud>52.0722</latitud>
+            <longitud>-1.0100</longitud>
+            <altitud>155</altitud>
+        </tramo>
+        <!-- Curva 12 -->
+        <tramo distancia="107" unidades="m" sector="2">
+            <latitud>52.0714</latitud>
+            <longitud>-1.0094</longitud>
+            <altitud>154</altitud>
+        </tramo>
+        <!-- Curva 13 -->
+        <tramo distancia="167" unidades="m" sector="2">
+            <latitud>52.0703</latitud>
+            <longitud>-1.0100</longitud>
+            <altitud>152</altitud>
+        </tramo>
+        <!-- Curva 14 -->
+        <tramo distancia="55" unidades="m" sector="2">
+            <latitud>52.0700</latitud>
+            <longitud>-1.0111</longitud>
+            <altitud>152</altitud>
+        </tramo>
+        <!-- Recta después de la curva 14 hasta fin de sector -->
+        <tramo distancia="50" unidades="m" sector="2">
+            <latitud>52.0689</latitud>
+            <longitud>-1.0111</longitud>
+            <altitud>151</altitud>
+        </tramo>
+        <!-- Recta después de la curva 14 (inicio de sector) -->
+        <tramo distancia="732" unidades="m" sector="3">
+            <latitud>52.0642</latitud>
+            <longitud>-1.0164</longitud>
+            <altitud>150</altitud>
+        </tramo>
+        <!-- Curva 15 -->
+        <tramo distancia="204" unidades="m" sector="3">
+            <latitud>52.0642</latitud>
+            <longitud>-1.0189</longitud>
+            <altitud>151</altitud>
+        </tramo>
+        <!-- Recta después de la curva 15 -->
+        <tramo distancia="326" unidades="m" sector="3">
+            <latitud>52.0664</latitud>
+            <longitud>-1.0217</longitud>
+            <altitud>146</altitud>
+        </tramo>
+        <!-- Curva 16 -->
+        <tramo distancia="57" unidades="m" sector="3">
+            <latitud>52.0664</latitud>
+            <longitud>-1.0225</longitud>
+            <altitud>146</altitud>
+        </tramo>
+        <!-- Curva 17 -->
+        <tramo distancia="66" unidades="m" sector="3">
+            <latitud>52.0661</latitud>
+            <longitud>-1.0233</longitud>
+            <altitud>147</altitud>
+        </tramo>
+        <!-- Recta después de la curva 17 -->
+        <tramo distancia="139" unidades="m" sector="3">
+            <latitud>52.0672</latitud>
+            <longitud>-1.0242</longitud>
+            <altitud>146</altitud>
+        </tramo>
+        <!-- Curva 18 -->
+        <tramo distancia="35" unidades="m" sector="3">
+            <latitud>52.0675</latitud>
+            <longitud>-1.0244</longitud>
+            <altitud>144</altitud>
+        </tramo>
+        <!-- Recta después de la curva 18 (final) -->
+        <tramo distancia="207" unidades="m" sector="3">
+            <latitud>52.0692</latitud>
+            <longitud>-1.0222</longitud>
+            <altitud>146</altitud>
+        </tramo>
+    </tramos>    
+</circuito>

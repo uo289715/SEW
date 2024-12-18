@@ -1,0 +1,73 @@
+/* Datos Personales: Javier Gutierrez Esquinas UO289715 */
+/* Estilos generales */
+/* Especificidad: 001 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightgray; /* Fondo de color gris claro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, lightgray, lightblue); /* Fondo de gradiente entre gris claro y azul claro */
+    /*Color de primer plano: Hereda del valor por defecto*/
+}
+/* Especificidad: 001 */
+h1, h2 {
+    color: darkblue; /* Títulos de color azul oscuro */
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1em;
+    /*Color de fondo: Hereda del body*/
+}
+
+/* Estilo para el temporizador */
+/* Especificidad: 001 */
+p {
+    font-size: 1.5rem;
+    color: darkslategray; /* Mensaje final en gris oscuro */
+    margin: 1em 0;
+    /*Color de fondo: Hereda del body*/
+
+}
+
+/* Estilo para las preguntas y respuestas */
+/* Especificidad: 001 */
+article {
+    background-color: white; /* Fondo blanco para las preguntas */
+    padding: 2em; /* Relleno relativo */
+    margin-bottom: 2em; /* Espaciado inferior relativo */
+    border-radius: 1em; /* Radio de borde relativo */
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1); /* Sombra con unidades relativas */
+    width: 100%; /* Ancho relativo */
+    max-width: 50em; /* Máximo ancho relativo */
+    text-align: center;
+    /*Color de primer plano: Hereda del body*/
+}
+
+/* Estilos para los botones */
+/* Especificidad: 001 */
+button {
+    background-color: green; /* Botones verdes */
+    color: white;
+    font-size: 1.25rem;
+    margin: 1em;
+    padding: 1em 2em; /* Relleno relativo */
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5em; /* Radio de borde relativo */
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+/* Especificidad: 011 */
+button:hover {
+    background-color: darkgreen; /* Botones más oscuros cuando se pasa el cursor */
+    /*Color de primer plano: Hereda del button*/
+}
+/* Especificidad: 011 */
+button:disabled {
+    background-color: lightgray; /* Color gris claro para botones deshabilitados */
+    cursor: not-allowed;
+    /*Color de primer plano: Hereda del button*/
+}

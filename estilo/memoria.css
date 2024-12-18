@@ -1,0 +1,166 @@
+/* Datos Personales: Javier Gutierrez Esquinas UO289715 */
+/* Contenedor principal */
+/* Especificidad: 001 */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em; /* Espacio entre las tarjetas */
+    width: 50%; /* El contenedor ocupa el ancho completo del cuerpo */
+    margin: 0 auto;
+}
+
+/* Cada tarjeta de memoria */
+/* Especificidad: 002 */
+section article {
+    flex: 1 1 calc(25% - 1em); /* Cada tarjeta ocupa 25% del ancho disponible, restando el espacio de gap */
+    max-width: calc(25% - 1em); /* Para asegurar que no se exceda del 25% */
+    aspect-ratio: 1; /* Proporción de 2:3 para cada tarjeta */
+    background-color: #007BFF; /* Color azul */
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    box-shadow: 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.3); /* Sombra con unidades relativas */
+    /*Color de primer plano heredado de body*/
+}
+
+/* La imagen dentro de cada tarjeta */
+/* Especificidad: 003 */
+section article img {
+    transform: rotateY(180deg);
+}
+
+/* Encabezado que muestra el texto cuando está bocabajo */
+/* Especificidad: 003 */
+section article h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Estilo cuando la tarjeta está volteada */
+/* Especificidad: 012 */
+section article[data-state="flip"] {
+    transform: rotateY(180deg);
+}
+
+
+/* Rotación de imagen y texto */
+/* Especificidad: 003 */
+section article img,
+section article h3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 0.3125rem; /* Bordes redondeados con rem */
+    backface-visibility: hidden;
+}
+
+/* Estilos para el aside de ayuda */
+/* Especificidad: 001 */
+aside {
+    background-color: #f9f9f9; /* Fondo muy claro */
+    border: 0.0625rem solid #ddd; /* Borde con rem */
+    border-radius: 1rem; /* Bordes redondeados */
+    padding: 1.25rem;
+    max-width: 80%; /* Ancho máximo del 80% del contenedor */
+    margin: 2rem auto; /* Centrado en la página con espacio arriba y abajo */
+    font-family: Arial, sans-serif;
+    /*Color de primer plano heredado de body*/
+}
+
+/* Especificidad: 002 */
+aside h2 {
+    font-size: 1.8rem;
+    color: #333; /* Gris oscuro para el título */
+    text-align: center; /* Centrado del título */
+    margin-bottom: 1.5rem;
+    /*Color de fondo heredado de body*/
+}
+
+/* Especificidad: 002 */
+aside p {
+    font-size: 1.125rem;
+    color: #555; /* Gris más claro para el texto */
+    line-height: 1.6; /* Mejor legibilidad */
+    margin-bottom: 1.5rem; /* Espacio debajo del párrafo */
+    /*Color de fondo heredado de body*/
+}
+
+/* Especificidad: 002 */
+aside ol {
+    margin-left: 2rem;
+    font-size: 1.125rem;
+    color: #555;
+    /*Color de fondo heredado de body*/
+}
+
+/* Especificidad: 003 */
+aside ol li {
+    margin-bottom: 1.25rem;
+}
+
+/* Especificidad: 002 */
+section h2 {
+    font-size: 2rem;
+    color: #28a745; /* Verde para el título */
+    margin-bottom: 1rem;
+    /*Color de fondo heredado de body*/
+}
+
+
+/* Especificidad: 002 */
+section p {
+    font-size: 1.25rem;
+    color: #333; /* Gris oscuro para el texto */
+    margin-bottom: 2rem; /* Espacio antes del botón */
+    /*Color de fondo heredado de body*/
+}
+
+/* Especificidad: 001 */
+h2 {
+    font-size: 2rem; /* Tamaño de fuente mayor */
+    color: #000; /* Verde para mantener consistencia con el diseño */
+    margin-bottom: 1rem; /* Espaciado debajo del título */
+    font-weight: bold; /* Poner el título en negrita */
+    text-align: center; /* Centrado del texto */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    /*Color de fondo heredado de body*/
+}
+
+/* Especificidad: 002 */
+section button {
+    background-color: #007bff; /* Azul para el botón */
+    color: #fff; /* Texto blanco */
+    font-size: 0.875rem; /* Tamaño de fuente más pequeño */
+    padding: 0.375rem 0.75rem; /* Ajustar el relleno interno para hacer el botón más pequeño */
+    border: none;
+    border-radius: 0.25rem; /* Borde redondeado */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: auto; /* Hacer el ancho del botón automático según el contenido */
+    min-width: 6rem; /* Establecer un ancho mínimo para que no sea demasiado pequeño */
+}
+
+/* Efecto al pasar el cursor sobre el botón */
+/* Especificidad: 012 */
+section button:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+    transform: scale(1.05); /* Efecto de escalado */
+    /*Color de primer plano heredado de body*/
+}
+
+/* Efecto al hacer clic en el botón */
+/* Especificidad: 012 */
+section button:active {
+    background-color: #004085; /* Azul aún más oscuro */
+    transform: scale(1); /* Normaliza el tamaño */
+    /*Color de primer plano heredado de body*/
+}
+

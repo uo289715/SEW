@@ -1,0 +1,301 @@
+/* Datos Personales: Javier Gutierrez Esquinas UO289715 */
+
+/*
+Colores:
+Rojo FF6557
+Rojo Oscuro AD0E00
+Blanco FFFFFF
+Azul 000c66
+Gris ccc
+Gris claro f9f9f9
+*/
+
+/* Especificidad: 001 */
+body {
+    background-color: #FFFFFF; /* Color de fondo del body */
+    color: #000000; /* Color de texto del body */
+    font-family: Arial, sans-serif; 
+    font-size: 1rem; /* Tamaño de fuente base, usando rem */
+    line-height: 1.5; /* Altura de línea relativa */
+}
+
+/* Especificidad: 011 */
+a[href^="http"] {
+    color: #AD0E00; /* Color inicial para enlaces externos */
+    /*Color de fondo: Hereda del body*/
+}
+
+/* Especificidad: 001 */
+ol {
+    margin-left: 2%; /* Utiliza un porcentaje para la sangría */
+    font-size: 1.1rem; /* Tamaño de fuente relativo */
+    color: #000000; /* Cambia el color del texto */
+    /*Color de fondo: Hereda del body*/
+}
+
+/* Especificidad: 002 */
+ol li {
+    margin-bottom: 0.2rem; /* Espacio entre los elementos, en rem */
+    font-weight: normal; /* Texto normal por defecto */
+    padding: 0.3rem; /* Relleno interno en rem */
+    font-size: 1rem; /* Tamaño de fuente relativo */
+}
+
+/* Especificidad: 001 */
+dl {
+    margin: 1rem; /* Margen relativo */
+    padding: 0.6rem; /* Relleno interno en rem */
+    border: 0.05rem solid #ccc; /* Borde de grosor relativo */
+    border-radius: 0.3rem; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo claro */
+    /*Color de primer plano: Hereda del body*/
+}
+
+/* Especificidad: 001 */
+dt {
+    font-weight: bold; /* Hace que el texto de términos esté en negrita */
+    font-size: 1.2rem; /* Tamaño de fuente relativo */
+}
+
+/* Especificidad: 001 */
+dd {
+    margin-bottom: 0.6rem; /* Espaciado entre definiciones */
+    font-size: 1rem; /* Tamaño de fuente estándar para las definiciones */
+}
+
+/* Especificidad: 001 */
+ul {
+    margin-left: 2%; /* Utiliza un porcentaje para la sangría */
+    font-size: 1.1rem; /* Tamaño de fuente relativo */
+    color: #000000; /* Cambia el color del texto */
+    /*Color de fondo: Hereda del body*/
+}
+
+/* Especificidad: 002 */
+ul li {
+    list-style-type: square; /* Cambia las viñetas a cuadrados */
+    font-size: 1rem; /* Tamaño de fuente relativo */
+}
+
+/* Especificidad: 004 */
+ul li ul li {
+    list-style-type: circle; /* Cambia las viñetas a círculos */
+    margin-bottom: 0.6rem; /* Añade un espacio entre los elementos */
+    font-size: 1rem; /* Tamaño de fuente relativo */
+}
+
+/* Especificidad: 001 */
+caption {
+    font-size: 1.5rem; /* Tamaño de fuente para el título de la tabla */
+    margin-bottom: 0.6rem; /* Margen inferior relativo */
+    font-weight: bold; /* Negrita para el título */
+}
+
+/* Especificidad: 001 */
+table {
+    width: 50%; /* Ancho relativo de la tabla */
+    border-collapse: collapse; /* Elimina el espacio entre bordes de celdas */
+    margin: 1rem 0; /* Margen superior e inferior relativo */
+    background-color: #f9f9f9; /* Color de fondo claro */
+    /*Color de primer plano: Hereda del body*/
+}
+
+/* Especificidad: 001 */
+th {
+    border: 0.05rem solid #ddd; /* Borde de grosor relativo */
+    padding: 0.75rem; /* Relleno interno en rem */
+    text-align: center; /* Alineación de texto */
+}
+
+/* Especificidad: 001 */
+td {
+    border: 0.05rem solid #ddd; /* Borde de grosor relativo */
+    padding: 0.6rem; /* Relleno interno en rem */
+    text-align: center; /* Alineación de texto */
+}
+
+/* Especificidad:001 */
+picture {
+    display: block; /* Asegura que el contenedor ocupe todo el ancho */
+    max-width: 100%; /* Limita el ancho máximo al 100% del contenedor padre */
+    height: auto; /* Mantiene la relación de aspecto */
+    overflow: hidden; /* Oculta el desbordamiento de contenido */
+    margin: 0 auto; /* Centra la imagen en el contenedor */
+}
+
+/* Especificidad:002 */
+picture img {
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsionarse */
+}
+
+/* Especificidad: 001 */
+video {
+    width: 100%;
+    height: auto;
+}
+
+/* Especificidad: 001 */
+h1 {
+    font-size: 2.5em; /* Tamaño de fuente relativo usando em */
+    font-weight: bold; /* Densidad */
+    color: #FFFFFF; /* Color de texto */
+    /*Color de fondo: Hereda del body*/
+}
+
+/* Especificidad: 002 */
+h1 a {
+    text-decoration: none;
+    color: #FFFFFF; /* Color de texto */
+    /*Color de fondo: Hereda del body*/
+}
+
+/* Especificidad: 001 */
+h2 {
+    font-size: 2rem; /* Tamaño de fuente relativo */
+}
+
+/* Especificidad: 001 */
+h3 {
+    font-size: 1.5rem; /* Tamaño de fuente relativo */
+}
+
+/* Especificidad: 001 */
+header {
+    background-color: #0000ff; /* Color de fondo del header */
+    color: #000000; /* Color de texto del header */
+}
+
+/* Especificidad: 003 */
+header + p:has(a) {
+    font-size: 0.875em; /* Tamaño relativo */
+}
+
+/* Especificidad: 001 */
+nav {
+    background-color: #FFFFFF; /* Color de fondo del nav */
+    /*Color de primer plano hereda de body*/
+}
+
+/* Especificidad: 002 */
+nav a {
+    color: #FFFFFF; /* Color de texto de los enlaces */
+    text-decoration: none; /* Eliminamos el subrayado */
+    padding: 1.25rem; /* Relleno interno usando rem */
+    background-color: #0000ff; /* Color de fondo de los enlaces */
+}
+
+/* Especificidad: 012 */
+nav a.active {
+    color: #FFFF00; /* Color diferente para el enlace activo */
+    font-weight: bold; /* Negrita para destacar */
+    border-bottom: 0.2rem solid #FFFF00; /* Subrayado o borde inferior */
+    /*Color de fondo: Hereda del body*/
+}
+/* Especificidad: 002 */
+p + section {
+    background-color: #f4f4f4; /* Color de fondo suave */
+    padding: 2rem; /* Espaciado interior en rem */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    max-width: 20rem; /* Ancho máximo de la sección */
+    margin: 2rem auto; /* Centrado en la pantalla */
+    /*Color de primer plano hereda de body*/
+}
+/* Especificidad: 003 */
+p + section h2 {
+    font-size: 1.5rem; /* Tamaño de fuente relativo para el título */
+    color: #333; /* Color del texto */
+    text-align: center; /* Centrar el título */
+    margin-bottom: 1.5rem; /* Separación */
+    /*Color de fondo: Hereda del body*/
+}
+/* Especificidad: 003 */
+p + section a {
+    display: block; /* Cada enlace ocupa una línea */
+    padding: 1rem 1.5rem; /* Relleno interno */
+    margin-bottom: 1rem; /* Separación entre enlaces */
+    background-color: #007bff; /* Fondo azul */
+    color: #fff; /* Color de texto blanco */
+    text-decoration: none; /* Eliminar subrayado */
+    border-radius: 0.25rem; /* Bordes redondeados */
+    font-size: 1.125rem; /* Tamaño de fuente relativo */
+    text-align: center; /* Centrar texto */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Efectos suaves de transición */
+}
+/* Especificidad: 013 */
+p + section a:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el cursor */
+    transform: scale(1.05); /* Efecto de escala */
+    /*Color de primer plano hereda de body*/
+}
+/* Especificidad: 013 */
+p + section a:active {
+    background-color: #004085; /* Color de fondo más oscuro al hacer clic */
+    transform: scale(1); /* Normaliza el tamaño */
+    /*Color de primer plano hereda de body*/
+}
+/* Especificidad: 001 */
+div {
+    width: 100%; 
+    height: 70vh; /* Utiliza vh para altura relativa */
+}
+/* Especificidad: 002 */
+section + article {
+    width: 100%;
+    max-width: 100vh; /* Ancho máximo en función del viewport */
+    height: 70vh; /* Altura relativa en función del viewport */
+    position: relative;
+    overflow: hidden;
+    border-radius: 1em;
+}
+/* Especificidad: 003 */
+section + article h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-size: 2rem; /* Tamaño relativo */
+}
+/* Especificidad: 003 */
+section + article img {
+    width: 100%;
+    max-width: 100vh; /* Máximo ancho en función del viewport */
+    height: 60vh; /* Altura relativa */
+    position: absolute;
+    transition: all 0.5s;
+    object-fit: cover;
+    border-radius: 0.5em;
+}
+/* Especificidad: 003 */
+section + article button {
+    position: absolute;
+    width: 2em; /* Usando em */
+    height: 2em; /* Usando em */
+    padding: 0.5em;
+    border: none;
+    border-radius: 50%;
+    z-index: 10;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 1em; /* Usando em */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*Color de primer plano hereda de*/
+}
+/* Especificidad: 013 */
+section + article button:active {
+    transform: scale(1.1); /* Escala relativa */
+}
+/* Especificidad: 013 */
+section + article button:nth-of-type(2) {
+    top: 50%;
+    left: 2%;
+}
+/* Especificidad: 013 */
+section + article button:nth-of-type(1) {
+    top: 50%;
+    right: 2%;
+}

@@ -1,0 +1,81 @@
+/* Main Content */
+h2, h3 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem; /* Ajuste con rem para el tamaño de fuente */
+}
+
+p {
+    text-align: center;
+    font-size: 1rem; /* 1rem equivale a 16px por defecto */
+}
+
+/* Forms */
+form {
+    background-color: white;
+    padding: 2rem; /* Se usa rem para el padding */
+    margin: 2rem auto;
+    max-width: 100%;
+    border-radius: 0.8rem; /* Usando rem para bordes redondeados */
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1); /* Usando rem para sombra */
+}
+
+form label {
+    display: block;
+    font-size: 1.6rem; /* Tamaño de fuente en rem */
+    margin-bottom: 0.8rem; /* Márgenes con rem */
+}
+
+form select, form input[type="file"], form button {
+    width: 100%;
+    padding: 1rem; /* Usando rem para padding */
+    margin-bottom: 0.1rem; /* Ajuste de margen con rem */
+    font-size: 1rem; /* Uso de rem para tamaño de fuente */
+    border: 1px solid #ccc;
+    border-radius: 0.5rem; /* Bordes redondeados con rem */
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+form input[type="file"] {
+    padding: 0.5rem; /* Ajuste de padding con rem */
+}
+
+/* Comparison Table */
+table {
+    width: 80%; /* El ancho en porcentaje se mantiene para un diseño adaptable */
+    margin: 2rem auto; /* Márgenes con rem */
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1); /* Sombra con rem */
+    border-radius: 0.8rem; /* Bordes redondeados con rem */
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 1rem; /* Usamos rem para el padding de las celdas */
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+table tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
