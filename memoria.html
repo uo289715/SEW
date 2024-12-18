@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Juegos</title>
+    <meta name ="author" content ="Javier Gutierrez Esquinas" />
+    <meta name ="description" content ="Juego de memoria" />
+    <meta name ="keywords" content ="F1,Juegos" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/memoria.css" />
+    <link rel="icon" href="multimedia/imagenes/icono.ico" type="image/x-icon">
+    <script src="js/memoria.js"></script>
+
+</head>
+<body>
+
+    <p> Estás en: <a href=index.html title="Inicio"> Inicio</a> -> Juegos -> Memoria</p>
+    
+    <h2>Juego de Memoria</h2>
+    
+
+    <aside>
+        <h2>¿Cómo jugar al Juego de Memoria?</h2>
+        <p>
+            El objetivo del juego es encontrar todas las parejas de cartas iguales. 
+            Para jugar, sigue estos pasos:
+        </p>
+        <ol>
+            <li>Haz clic en una carta para voltearla y revelar la imagen que contiene.</li>
+            <li>Luego, haz clic en otra carta para intentar encontrar su pareja.</li>
+            <li>Si las dos cartas tienen la misma imagen, permanecerán visibles.</li>
+            <li>Si las cartas no coinciden, se voltearán nuevamente.</li>
+            <li>Continúa jugando hasta que todas las cartas estén emparejadas.</li>
+        </ol>
+        <p>
+            Recuerda que debes usar tu memoria para recordar las imágenes que has visto en las cartas previamente volteadas. ¡Buena suerte!
+        </p>
+    </aside>
+
+    <h2>Juego</h2>
+
+    <section>
+        <script>
+            // Crear una instancia de la clase Memoria para inicializar el juego
+            document.addEventListener("DOMContentLoaded", () => {
+                new Memoria(); // Inicializa el juego después de cargar el DOM
+            }); 
+        </script>
+    </section>
+
+    
+   
+    
+</body>
+</html>

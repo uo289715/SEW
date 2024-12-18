@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Noticias</title>
+    <meta name ="author" content ="Javier Gutierrez Esquinas" />
+    <meta name ="description" content ="Noticias de la F1" />
+    <meta name ="keywords" content ="F1,Noticias" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/article_elements.css" />
+    <link rel="icon" href="multimedia/imagenes/icono.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1><a href=index.html title="F1 Desktop">F1 Desktop</a></h1>
+        <nav>
+            <a href="index.html" title="inicio">Inicio</a>
+            <a href="piloto.html" title="inicio">Piloto</a>
+            <a href="noticias.html" class="active" title="inicio">Noticias</a>
+            <a href="calendario.html" title="inicio">Calendario</a>
+            <a href="meteorologia.html" title="inicio">Meteorologia</a>
+            <a href="circuito.html" title="inicio">Circuito</a>
+            <a href="viajes.php" title="inicio">Viajes</a>
+            <a href="juegos.html" title="inicio">Juegos</a>
+        </nav>
+    </header>
+
+    <p> Estás en: <a href=index.html title="Inicio"> Inicio</a> -> Noticias</p>
+
+    <h2>Noticias</h2>
+    <p>Seleccione un archivo de texto:</p>
+    <p><input type="file" id="archivoTexto" /></p>
+    
+    <section>
+        <h2>Añadir una nueva noticia</h2>
+        <form>
+          <label>Título:</label>
+          <input type="text" placeholder="Título de la noticia" required><br>
+    
+          <label>Entradilla:</label>
+          <input type="text" placeholder="Entradilla de la noticia" required><br>
+    
+          <label>Autor:</label>
+          <input type="text" placeholder="Autor de la noticia" required><br>
+    
+          <button type="submit">Añadir noticia</button>
+        </form>
+    </section>
+    <script src="js/noticias.js"></script>
+
+</body>
+</html>
